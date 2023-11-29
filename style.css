@@ -1,0 +1,45 @@
+body {
+    background: #062A5B;
+}
+
+h4{
+    color: #fff;
+}
+
+.progressbar-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 30px;
+    padding: 4px;
+    background: white;
+}
+
+.progressbar {
+    width: 100%;
+    background: #D5D8DF;
+}
+
+.progress{
+    width: 0%;
+    height: 100%;
+    position: relative;
+    background: #00BF63;
+}
+
+.progressLabel{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    left: 80%;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.startBtn{
+    background: #1e90FF;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    margin-left: 5px;
+}
